@@ -1,0 +1,85 @@
+.card {
+  min-height: 10rem;
+  overflow: hidden;
+  width: 13rem;
+  background: #fff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  margin: 1rem;
+}
+
+.card-title {
+  /*color: #fafaf9;*/
+  font-size: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-title-action {
+  margin-left: auto;
+}
+
+.card-content {
+  color: #1e1e1e;
+  min-height: 8.5rem;
+  font-size: larger;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content .comment-small {
+  font-size: xx-small;
+  color: #666a68;
+}
+
+.main-container {
+  display: flex;
+  /*backdrop-filter: ;*/
+  /*background: #eee;*/
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+
+/*icons*/
+.font-icon-setting {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+  color: #cfdde2;
+}
+
+.font-icon-add {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*colors*/
+/*字体黑*/
+.theme-color-font-black {
+  color: #1e1e1e;
+}
+.theme-color-font-white {
+  color: #fff;
+}
+/*主题红*/
+.theme-color-common-red {
+  background: #ff5c54;
+}
+/*主题绿*/
+.theme-color-common-green {
+  background: #26d043;
+}
+/*// 主题黄*/
+.theme-color-common-yellow {
+  background: #fdc60d;
+}

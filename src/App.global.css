@@ -1,0 +1,151 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+html {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  background: #f9f5f4;
+  margin: 0;
+  padding: 1.5rem;
+  background: linear-gradient(
+    200.96deg,
+    #fedc2a -29.09%,
+    #dd5789 51.77%,
+    #7a2c9e 129.35%
+  );
+  height: 100vh;
+  /*width: 100vh;*/
+  overflow-y: hidden;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: transform ease-in 0.1s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.card {
+  min-height: 10rem;
+  overflow: hidden;
+  width: 13rem;
+  background: #fff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  margin: 1rem;
+}
+
+.card-title {
+  /*color: #fafaf9;*/
+  font-size: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-title-action {
+  margin-left: auto;
+}
+
+.card-content {
+  color: #1e1e1e;
+  min-height: 8.5rem;
+  font-size: larger;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content .comment-small {
+  font-size: xx-small;
+  color: #666a68;
+}
+
+.main-container {
+  display: flex;
+  /*backdrop-filter: ;*/
+  /*background: #eee;*/
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+
+/*icons*/
+.font-icon-setting {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+  color: #cfdde2;
+}
+
+.font-icon-add {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*colors*/
+/*字体黑*/
+.theme-color-font-black {
+  color: #1e1e1e;
+}
+.theme-color-font-white {
+  color: #fff;
+}
+/*主题红*/
+.theme-color-common-red {
+  background: #ff5c54;
+}
+/*主题绿*/
+.theme-color-common-green {
+  background: #26d043;
+}
+/*// 主题黄*/
+.theme-color-common-yellow {
+  background: #fdc60d;
+}
